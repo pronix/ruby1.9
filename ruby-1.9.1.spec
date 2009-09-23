@@ -56,7 +56,7 @@ Source0:      ftp://ftp.ruby-lang.org/pub/ruby/ruby-%{V_dist}.tar.gz
 
 #   build information
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-BuildPreReq:  ncurses, openssl, readline, zlib, make, gcc
+BuildPreReq:  ncurses, openssl, readline, zlib, make, gcc, ncurses-devel, readline-devel
 PreReq:       ncurses, openssl, readline, zlib
 
 %description
